@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header img{
+    float: left;
+    border-radius: 50%;
+    transition: 0.1s ease;
+
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Assets/kitty.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+nav {
+   display: flex;
+   float: right;
+  
+  }
+
+nav li{
+  
+    display: inline-block;
+   
+}
+
+ul li{
+    list-style-type: circle;
+}
+ul li a{
+    text-decoration: none;
+    color:#fffe;
+    padding: 5px 22px;
+    border: 2px solid #fffe;
+    transition:0.7s ease;
+  
+
+}
+
+.button:hover{
+    background-color: rgb(81, 128, 230);
+    color:rgb(10, 10, 10);
+    
+}
+
+.active a{
+    background-color: rgb(81, 128, 230);
+    color:rgb(10, 10, 10)
+
+}
+
+.button{
+    
+    font-size: 15px;
+    text-decoration: none;
+    color:#fffe;
+    border:rgb(81, 128, 230);
+    border-radius: 60px;
+    top: 20px;
+    margin:0px;
+    transition: 0.7s;
+    box-shadow: 2px 3px lightpink ;
+
+}
+
+.Title{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    
+.Title h1{
+    color: rgb(80, 121, 211);
+    text-shadow:2px 2px rgb(40, 40, 41);
+    font-size: 45px;
+    font-family: "Lucida Handwriting";
+    font-style: italic;
+    text-align: center;
+    
+   
+}
+.rounded{
+
+    width: 350px;
+    background-color: rgba(86, 127, 168, 0.548);
+    padding: 10px;
+    /*border-radius:top,right,bottom,left;*/ 
+    border-radius: 40px 0px 40px 0px;
+}
+.rounded img {
+    position: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
+
+video{
+    position:left;
+    border-radius:20%;
+}
+ul li{
+    font-weight: lighter;
+    color: #fff;
+}
+footer .button{
+    text-decoration: none;
+    color:#fffe;
+    padding: 5px 22px;
+    border: 2px solid #fffe;
+    transition:0.7s ease;
+
+}
+footer li{
+    display: inline-block;
+}
+
+
+
